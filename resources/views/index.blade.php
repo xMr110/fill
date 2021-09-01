@@ -20,7 +20,8 @@
                                 <span>{{setting('slider.slider_subTitle')}}</span>
                                 <h2>{{setting('slider.slider_Title')}}</h2>
                                 <p style="width: 50%;">{!!setting('slider.Slider_description')  !!}</p>
-                                <a class="btn" href="become-volunteer.html" title="">{{setting('slider.slider_video_button_text')}}</a>
+                                <a class="btn open-popup" href="" onclick="myFunction( {{ setting('slider.slider_video') }}
+                                    ,  [{ 'download_link':'{{ voyager::image(setting('slider.video_image')) }}'  }]) " title="">{{setting('slider.slider_video_button_text')}}</a>
                             </div>
                         </div><!-- Shelter Featured Text -->
 
@@ -241,11 +242,12 @@
     </script>
     <script>
 
-        var player = null;
+        let player = null;
 
         // window.player = player;
         function myFunction(e,c){
 ;
+            console.log('hello');
             player = new Plyr('video', {captions: {active: true}});
 
 
