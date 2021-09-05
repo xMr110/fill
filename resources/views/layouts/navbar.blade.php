@@ -14,9 +14,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="index.html" title="">Home</a></li>
+                        <li><a href="{{route('site.home')}}" title="">Home</a></li>
                         <li><a href="#" title="">Pages</a> </li>
-                        <li><a href="#Articles" title="">Our News</a></li>
+                        <li><a href="{{route('site.news')}}" title="">Our News</a></li>
                         <li><a href="#" title="">Events</a></li>
                         <li><a href="causes.html" title="">Causes</a></li>
                         <li><a href="#" title="">Contact</a></li>
@@ -56,7 +56,7 @@
             <ul>
                 <li><a href="index.html" title="">Home</a> </li>
                 <li><a href="#" title="">Pages</a> </li>
-                <li><a href="#Articles" title="">Our News</a>  </li>
+                <li><a href="{{route('site.news')}}" title="">Our News</a>  </li>
                 <li><a href="#" title="">Events</a></li>
                 <li><a href="causes.html" title="">Causes</a> </li>
                 <li><a href="#" title="">Contact</a> </li>

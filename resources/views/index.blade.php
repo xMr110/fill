@@ -46,23 +46,23 @@
                         <div class="shelter-services">
                             <div class="row no-gutters">
                                 <div class="col-lg-4 col-md-12">
-                                    <div class="shelter-service">
+                                    <div class="shelter-service" STYLE="    padding: 50px 30px!important;">
                                         <h3>{{setting('who-we-are.who_FIrst_Title')}}</h3>
-                                        <p>{{setting('who-we-are.who_FIrst_Description')}}</p>
 
                                     </div>
                                 </div>
+
                                 <div class="col-lg-4 col-md-12">
-                                    <div class="shelter-service style2">
+                                    <a href="{{route('site.join')}}">  <div class="shelter-service style2">
                                         <h3>{{setting('who-we-are.who_second_Title')}}</h3>
-                                        <p>{{setting('who-we-are.who_second_Description')}}</p>
 
-                                    </div>
+
+                                    </div></a>
                                 </div>
+
                                 <div class="col-lg-4 col-md-12">
                                     <div class="shelter-service style3">
                                         <h3>{{setting('who-we-are.who_Third_Title')}}</h3>
-                                        <p>{{setting('who-we-are.who_Third_Description')}}</p>
 
                                     </div>
                                 </div>
@@ -132,8 +132,7 @@
                     <div class="col-lg-10 col-md-12">
                         <div class="simple-parallax">
                             <h3>{{setting('support.title')}}</h3>
-                            <p>{{setting('support.description')}}</p>
-                            <a class="btn" href="{{setting('social.Instagram')}}" title="">Join Our Instgram</a>
+                            <a class="btn" href="{{route('site.join')}}" title="">Join Our Teleegram</a>
                         </div>
                     </div>
                 </div>
@@ -147,6 +146,7 @@
         <div class="block" id="Articles">
             <div class="container">
                 <div class="row">
+
                     <div class="col-12">
                         <div class="title">
                             <span>Give Your Hand To Help</span>
@@ -164,8 +164,8 @@
                                                 <li>{{$article->date}}</li>
                                             </ul>
                                             <h3><a href="#" title="">{{$article->title}}</a></h3>
-                                            <p>{{$article->description}}</p>
-                                            <a class="readmore" href="#" title="">Read More</a>
+                                            <p>{!! \Illuminate\Support\Str::substr($article->description,0,150) !!}....</p>
+                                            <a class="readmore" href="{{route('site.singleNews',$article)}}" title="">Read More</a>
                                         </div>
                                     </div><!-- Simple Post -->
                                 </div>
@@ -174,6 +174,7 @@
                         </div>
 
                     </div>
+
                 </div>
             </div>
         </div>

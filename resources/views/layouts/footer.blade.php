@@ -5,7 +5,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="widget">
                         <div class="about-widget">
-                            <div class="logo"><a href="#" title=""><img src="{{url('/storage/'.setting('site.logo'))}}" alt="" /></a></div>
+                            <div class="logo"><a href="#" title=""><img src="{{url('/storage/'.setting('site.footer_logo'))}}" alt="" /></a></div>
                             <p>Subscribe with our newsletters to keep you updated. </p>
 {{--                            To update later --}}
                             <form class="newsletter-form">
