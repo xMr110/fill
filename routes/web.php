@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 //Route::get('/', function () {
-//    return view('welcome');
+//    return view('welcome'); CAMPAIGN
 //});
 
 
@@ -29,6 +29,7 @@ Route::get('/',[SiteController::class,'index'])->name('site.home');
 
 Route::get('/news',[SiteController::class,'news'])->name('site.news');
 Route::get('/joinUs',[SiteController::class,'join'])->name('site.join');
+Route::get('/campaign',[SiteController::class,'campaign'])->name('site.campaign');
 
 Route::post('/joinUs/apply',[SiteController::class,'apply'])->name('site.apply');
 

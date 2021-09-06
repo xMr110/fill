@@ -46,10 +46,12 @@
                         <div class="shelter-services">
                             <div class="row no-gutters">
                                 <div class="col-lg-4 col-md-12">
-                                    <div class="shelter-service" STYLE="    padding: 50px 30px!important;">
+
+                                    <a href="{{route('site.campaign')}}">  <div class="shelter-service" STYLE="    padding: 50px 30px!important;">
                                         <h3>{{setting('who-we-are.who_FIrst_Title')}}</h3>
 
                                     </div>
+                                    </a>
                                 </div>
 
                                 <div class="col-lg-4 col-md-12">
@@ -132,7 +134,7 @@
                     <div class="col-lg-10 col-md-12">
                         <div class="simple-parallax">
                             <h3>{{setting('support.title')}}</h3>
-                            <a class="btn" href="{{route('site.join')}}" title="">Join Our Teleegram</a>
+                            <a class="btn" href="{{route('site.join')}}" title="">Join Our Telegram</a>
                         </div>
                     </div>
                 </div>

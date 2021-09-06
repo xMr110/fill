@@ -65,4 +65,9 @@ class SiteController extends Controller
         if($message->save()){        $data = '1';}else{$data='0';}
         return   redirect()->route('site.join',compact('data'));
     }
+
+    public function campaign()
+    {
+        return view('campaign');
+    }
 }
