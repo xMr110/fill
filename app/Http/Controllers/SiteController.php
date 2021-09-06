@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Article;
+use App\Models\Message;
 use App\Models\Partner;
 use App\Models\Telegram;
 use App\Models\Video;
@@ -66,6 +67,30 @@ class SiteController extends Controller
         return   redirect()->route('site.join',compact('data'));
     }
 
+
+    public function message(Request  $request)
+    {
+
+        $this->validate($request, [
+            'name'=>'required',
+            'email'=>'required|email',
+            'Subject'=>'required',
+            'Message'=>'required'
+        ]);
+
+        $message = new Message();
+        $message->name = $request->get('name');
+        $message->email = $request->get('email');
+        $message->Subject = $request->get('Subject');
+        $message->Message = $request->get('Message');
+        $message->status = 1;
+        if($message->save()){        $data = '1';}else{$data='0';}
+        return   redirect()->route('site.contact',compact('data'));
+    }
+    public function contact()
+    {
+        return view('contact');
+    }
     public function campaign()
     {
         return view('campaign');

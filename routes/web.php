@@ -33,5 +33,8 @@ Route::get('/campaign',[SiteController::class,'campaign'])->name('site.campaign'
 
 Route::post('/joinUs/apply',[SiteController::class,'apply'])->name('site.apply');
 
+Route::post('/contact/message',[SiteController::class,'message'])->name('site.message');
+Route::get('/contact',[SiteController::class,'contact'])->name('site.contact');
+
 
 Route::get('/news/{article}',[SiteController::class,'singleNews'])->name('site.singleNews');

@@ -23,7 +23,7 @@
                             <li><a href="{{route('site.campaign')}}" title="">Our Campaign</a></li>
                             <li><a href="{{route('site.join')}}" title="">Join Us</a></li>
                             <li><a href="{{route('site.news')}}" title="">Our News</a></li>
-                            <li><a href="#" title="">Contact</a></li>
+                            <li><a href="{{route('site.contact')}}" title="">Contact</a></li>
                         </ul>
                     </div>
                 </div>

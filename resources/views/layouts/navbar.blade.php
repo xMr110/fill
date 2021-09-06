@@ -23,7 +23,7 @@
                         <div class="info">
                             <i class="ion-ios-email-outline"></i>
                             <strong>Email
-                                <span><a href="mailto:youremail@gmail.com">youremail@gmail.com</a></span>
+                                <span><a href="mailto:{{setting('about-us.email')}}">{{setting('about-us.email')}}</a></span>
                             </strong>
                         </div><!-- Info -->
                     </div>
@@ -40,7 +40,7 @@
                     <li><a href="{{route('site.campaign')}}" title="">Our Campaign</a></li>
                     <li><a href="{{route('site.join')}}" title="">Join Us</a></li>
                     <li><a href="{{route('site.news')}}" title="">Our News</a></li>
-                    <li><a href="#" title="">Contact</a></li>
+                    <li><a href="{{route('site.contact')}}" title="">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -72,7 +72,8 @@
                 <li><a href="{{route('site.campaign')}}" title="">Our Campaign</a></li>
                 <li><a href="{{route('site.news')}}" title="">Our News</a></li>
                 <li><a href="{{route('site.join')}}" title="">Join Us</a></li>
-                <li><a href="#" title="">Contact</a></li>
+                <li><a href="{{route('site.contact')}}" title="">Contact</a></li>
+
             </ul>
         </div>
     </div><!-- Sideheader -->
