@@ -24,7 +24,7 @@ a:hover,
 .event-info strong,
 .call-now > span i,
 .contact-box h4 i{
-	color:#a4343a;
+	color:#ab4848d6;
 }
 
 
@@ -34,7 +34,7 @@ ul li:before,
 .shelter-service.style3,
 .btn,
 .slick-dots li.slick-active button,
-.shelter-event:hover:before, 
+.shelter-event:hover:before,
 .shelter-event:hover:after,
 .menu-strip,
 .shelter-donations > span,
@@ -57,12 +57,12 @@ ul li:before,
 .fullmenu-btn,
 .form-btn,
 .blackbar .shelter-name{
-	background-color:#a4343a;
+	background-color:#ab4848d6;
 }
 
 
 .round-icon-btn:before,
 .btn.style4,
 .shelter-pagination ul.pagination li a.current{
-	border-color:#a4343a;
+	border-color:#ab4848d6;
 }
