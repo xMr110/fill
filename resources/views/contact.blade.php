@@ -32,7 +32,7 @@
                 <div class="col-md-12">
                     <div class="shelter-contact">
                         <div class="contact-img" style="padding: 10px;">
-                            <img src="{{voyager::image(setting('site.title'))}}">
+                            <img src="{{voyager::image(setting('site.contact_image'))}}">
                         </div><!-- Contact Image -->
                         <div class="simple-form">
                             @if ($errors->any())
