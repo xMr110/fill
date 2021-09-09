@@ -16,7 +16,7 @@
                     <div class="col">
                         <div class="shelter-call">
                             <div class="row">
-                                <div class="col-lg-8 col-md-12"> <p>Join The <i>Ultimate and Irreplacable</i> Experience Now!</p> </div>
+                                <div class="col-lg-8 col-md-12"> <p>Together we are strong!</p> </div>
                             </div>
                         </div><!-- Shelter Call -->
                     </div>
@@ -32,7 +32,7 @@
                 <div class="col-md-12">
                     <div class="shelter-contact">
                         <div class="contact-img">
-                            <div class="contact-name">We Are Here <span>123 E-Block, Street 3051 London, UK 441</span></div>
+                            <div class="contact-name"><img src=""></div>
                         </div><!-- Contact Image -->
                         <div class="simple-form">
                             @if ($errors->any())

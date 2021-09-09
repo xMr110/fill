@@ -15,7 +15,7 @@
                                 <div class="col-lg-12 col-md-12">
                                     <div class="title left">
                                         <span>Shine Bright the world needs you</span>
-                                        <h2><i>BECOME A</i> Supporter</h2>
+                                        <h2><i>Your Business</i>  is Essential</h2>
                                     </div>
                                     <div style="color: black!important;"> {{setting('support.description')}}</div>
                                     <br>
@@ -44,11 +44,11 @@
                                         <input name="email" type="text" placeholder="Email Address *">
                                         <input name="phone" type="text" placeholder="Phone Number *">
                                         <input name="abn" type="text" placeholder="ABN">
-                                        <textarea name="description" placeholder="About Your Self *"></textarea>
+                                        <textarea name="description" placeholder="About your business *"></textarea>
                                         <button class="btn submit" type="submit">Become Now</button>
                                     </form>
                                     <br>
-                                    <p>P.S : we might ask for business prof through email please stay tuned .</p>
+                        
 
                                 </div>
                             </div>

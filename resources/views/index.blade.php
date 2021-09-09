@@ -82,8 +82,8 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="title">
-                            <span>Help The Homeless People</span>
-                            <h2><i>FILLTHETILL</i> RECENT VIDEOS</h2>
+                       
+                            <h2>RECENT VIDEOS</h2>
                         </div>
 
 {{--iam here--}}
@@ -151,8 +151,8 @@
 
                     <div class="col-12">
                         <div class="title">
-                            <span>Give Your Hand To Help</span>
-                            <h2><i>FILL THE TILL</i> RECENT NEWS</h2>
+             
+                            <h2>RECENT NEWS</h2>
                         </div>
                         <div class="shelter-blog">
                             <div class="row">
