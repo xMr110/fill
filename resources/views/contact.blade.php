@@ -31,8 +31,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="shelter-contact">
-                        <div class="contact-img">
-                            <div class="contact-name"><img src=""></div>
+                        <div class="contact-img" style="padding: 10px;">
+                            <img src="{{voyager::image(setting('site.title'))}}">
                         </div><!-- Contact Image -->
                         <div class="simple-form">
                             @if ($errors->any())

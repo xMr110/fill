@@ -17,7 +17,9 @@
     <div class="menubar">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-3"><div class="logo"><a href="#" title=""><img src="{{url('/storage/'.setting('site.logo'))}}" alt="" /></a></div></div>
+                <div class="col-3"><div class="logo"><a href="#" title=""><img  style="    max-width: unset;
+    width: 130%;
+    height: 100px;"  src="{{url('/storage/'.setting('site.logo'))}}" alt="" /></a></div></div>
                 <div class="col-9">
                     <div class="header-contact">
                         <div class="info">
