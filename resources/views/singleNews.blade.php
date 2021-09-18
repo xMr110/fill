@@ -30,8 +30,6 @@
                                 </ul>
                                 <div class="round-socials">
                                     <a class="facebook" title="" href="https://www.facebook.com/sharer/sharer.php?u={{url()->current()}}&display=popup"><i class="fa fa-facebook"></i></a>
-                                    <a class="twitter" title="" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="pinterest" title="" href="#"><i class="fa fa-pinterest"></i></a>
                                 </div>
                             </div>
                                 {!! $article->description !!}
