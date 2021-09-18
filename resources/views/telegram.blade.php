@@ -45,10 +45,10 @@
                                         <input name="phone" type="text" placeholder="Phone Number *">
                                         <input name="abn" type="text" placeholder="ABN">
                                         <textarea name="description" placeholder="About your business *"></textarea>
-                                        <button class="btn submit" type="submit">Become Now</button>
+                                        <button class="btn submit" type="submit">Join NOW</button>
                                     </form>
                                     <br>
-                        
+
 
                                 </div>
                             </div>
