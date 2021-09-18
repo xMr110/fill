@@ -1,6 +1,8 @@
 @extends('layouts.app')
 
-
+@section('title')
+    Homepage
+@stop
 @section('content')
 
 
@@ -82,7 +84,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="title">
-                       
+
                             <h2>RECENT VIDEOS</h2>
                         </div>
 
@@ -151,7 +153,7 @@
 
                     <div class="col-12">
                         <div class="title">
-             
+
                             <h2>RECENT NEWS</h2>
                         </div>
                         <div class="shelter-blog">
