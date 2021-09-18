@@ -3,7 +3,7 @@
 
 
 
-<header class="stick">
+<header>
     <div class="topbar dark">
         <div class="container">
             <span class="top-btn  " href="{{route('site.join')}}" title="">JOIN US</span>
