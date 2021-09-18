@@ -10,7 +10,7 @@
             <ul>
                 <li><a href="{{setting('social.facebook')}}" title="">Facebook</a></li>
                 <li><a href="{{setting('social.Instagram')}}" title="">Instagram</a></li>
-                <li><a href="{{setting('social.linkedin')}}" title="">linkedin</a></li>
+                <li><a href="{{setting('social.linkedin')}}" title="">Linkedin</a></li>
             </ul>
         </div>
     </div><!-- Topbar -->
