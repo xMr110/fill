@@ -25,7 +25,7 @@
                                 <div class="cat-box"><span>FILLTHETILL</span></div>
                                 <h1 class="post-title"><a href="#" title=""> {{$article->title}}</a></h1>
                                 <ul class="meta">
-                                    <li>By <a href="#" title="">Wesley Stevon</a></li>
+                                    <li>By <a href="#" title="">{{$article->user->name}}</a></li>
                                     <li>{{$article->date}}</li>
                                 </ul>
                                 <div class="round-socials">
