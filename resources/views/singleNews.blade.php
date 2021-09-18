@@ -8,7 +8,7 @@
     <meta property="og:url"                content="{{url()->current()}}" />
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content=" {{$article->title}}" />
-    <meta property="og:description"        content="{!! $article->description !!}" />
+    <meta property="og:description"        content="{!! strip_tags($article->description) !!}" />
     <meta property="og:image"              content="{{url('/storage/'.$article->image)}}" />
 
 @stop
