@@ -24,7 +24,7 @@ a:hover,
 .event-info strong,
 .call-now > span i,
 .contact-box h4 i{
-	color:#AB6765;
+	color:#d4203e;
 }
 
 
@@ -57,12 +57,12 @@ ul li:before,
 .fullmenu-btn,
 .form-btn,
 .blackbar .shelter-name{
-	background-color:#AB6765;
+	background-color:#d4203e;
 }
 
 
 .round-icon-btn:before,
 .btn.style4,
 .shelter-pagination ul.pagination li a.current{
-	border-color:#AB6765;
+	border-color:#d4203e;
 }
