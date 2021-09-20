@@ -21,7 +21,7 @@
                             <div class="container">
                                 <span style="font-size:20px!important;">{{setting('slider.slider_subTitle')}}</span>
                                 <h2 style="background: #57616585;">{{setting('slider.slider_Title')}}</h2>
-                                <p style="width: 50%;     font-size: 20px; background: #57616585; ">{{setting('slider.Slider_description') }}</p>
+                                <p style="width: 50%;     font-size: 20px; background: #57616585; ">{{ strip_tags(setting('slider.Slider_description')) }}</p>
                                 <a class="btn open-popup" href="" onclick="myFunction( {{ setting('slider.slider_video') }}
                                     ,  [{ 'download_link':'{{ voyager::image(setting('slider.video_image')) }}'  }]) " title="">{{setting('slider.slider_video_button_text')}}</a>
                             </div>
