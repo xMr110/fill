@@ -98,9 +98,9 @@
                                     <div class="cause-inner">
                                         <img src="{{url('/storage/'.$video->image)}}" alt="" />
                                         <div class="cause-text">
-                                            <span>{{$video->subTitle}}</span>
-                                            <h4>{{$video->title}}</h4>
-                                            <p>{{$video->description}}</p>
+                                            <span style="float: left!important;">{{$video->subTitle}}</span>
+                                            <h4 style="text-align: left!important;">{{$video->title}}</h4>
+                                            <p style="text-align: left!important;">{{$video->description}}</p>
                                             <a class="btn small open-popup"
                                                onclick="myFunction( {{ $video->video }}
                                                    ,  [{ 'download_link':'{{ voyager::image($video->image) }}'  }]) "  href="" title="">watch Now</a>
